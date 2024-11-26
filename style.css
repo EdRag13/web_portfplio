@@ -1,0 +1,37 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
+
+.button{
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.button1:hover {
+    background-color: black;
+    color: white;
+}
+
+.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
